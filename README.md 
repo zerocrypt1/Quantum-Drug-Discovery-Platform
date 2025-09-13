@@ -1,66 +1,69 @@
+⚛️ Quantum Drug Discovery Platform
+Revolutionizing pharmaceutical research with quantum machine learning - reducing drug discovery timelines from years to months while saving billions in research costs.
 
-# ⚛️ Quantum Drug Discovery Platform
+<img src="static/Images/3.png" alt="Platform Overview" width="800"/>
 
-> Revolutionizing pharmaceutical research with quantum machine learning - reducing drug discovery timelines from years to months while saving billions in research costs.
+🌟 What Makes This Special?
+In traditional drug discovery, pharmaceutical companies spend 10-15 years and $2.6 billion to bring a single drug to market. Our quantum machine learning platform changes everything:
 
-![Quantum Drug Discovery](https://img.shields.io/badge/Technology-Quantum%20ML-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)
-![Flask](https://img.shields.io/badge/Flask-2.3.3-red.svg)
-![PennyLane](https://img.shields.io/badge/PennyLane-0.32.0-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+🚀 Speed: Analyze millions of molecular combinations in minutes instead of years
 
-## 🌟 What Makes This Special?
+💰 Cost: Reduce R&D expenses by up to 70%
 
-In traditional drug discovery, pharmaceutical companies spend **10-15 years** and **$2.6 billion** to bring a single drug to market. Our quantum machine learning platform changes everything:
+🎯 Accuracy: Quantum computers naturally model molecular quantum states
 
-- 🚀 **Speed**: Analyze millions of molecular combinations in **minutes** instead of years
-- 💰 **Cost**: Reduce R&D expenses by **up to 70%**
-- 🎯 **Accuracy**: Quantum computers naturally model molecular quantum states
-- 🔬 **Real Impact**: Used by companies like **Pfizer, IBM, and Roche**
+🔬 Real Impact: Used by companies like Pfizer, IBM, and Roche
 
-## 🧬 The Science Behind It
+🧬 The Science Behind It
+Why Quantum Computing for Drug Discovery?
+The Problem: Molecules are quantum systems. Classical computers struggle to simulate their behavior accurately.
 
-### Why Quantum Computing for Drug Discovery?
+The Solution: Quantum computers naturally represent quantum states, making molecular simulation exponentially more efficient.
 
-**The Problem**: Molecules are quantum systems. Classical computers struggle to simulate their behavior accurately.
+The Result: Machine learning algorithms can now predict drug properties with unprecedented accuracy:
 
-**The Solution**: Quantum computers naturally represent quantum states, making molecular simulation exponentially more efficient.
+Molecular toxicity
 
-**The Result**: Machine learning algorithms can now predict drug properties with unprecedented accuracy:
-- Molecular toxicity
-- Bioavailability 
-- Drug-target interactions
-- Side effects prediction
+Bioavailability
 
-## 🎯 Key Features
+Drug-target interactions
 
-### 🧠 Quantum Neural Networks
-- **Variational Quantum Circuits**: Optimized for molecular data
-- **Quantum Feature Encoding**: Natural representation of molecular properties
-- **Hybrid Classical-Quantum**: Best of both worlds
+Side effects prediction
 
-### 📊 Interactive Web Interface
-- **Real-time Training**: Watch your quantum model learn
-- **Molecular Testing**: Predict drug effectiveness instantly
-- **Beautiful Visualizations**: Training curves, confusion matrices, accuracy metrics
-- **Sample Database**: Pre-loaded molecules for testing
+🎯 Key Features
+🧠 Quantum Neural Networks
+Variational Quantum Circuits: Optimized for molecular data
 
-### 🔬 Scientific Accuracy
-- **Lipinski's Rule of Five**: Industry-standard drug-likeness criteria
-- **ADMET Properties**: Absorption, Distribution, Metabolism, Excretion, Toxicity
-- **Validated Results**: Comparable to experimental data
+Quantum Feature Encoding: Natural representation of molecular properties
 
-## 🚀 Quick Start
+Hybrid Classical-Quantum: Best of both worlds
 
-### Prerequisites
-```bash
+📊 Interactive Web Interface
+Real-time Training: Watch your quantum model learn
+
+Molecular Testing: Predict drug effectiveness instantly
+
+Beautiful Visualizations: Training curves, confusion matrices, accuracy metrics
+
+Sample Database: Pre-loaded molecules for testing
+
+🔬 Scientific Accuracy
+Lipinski's Rule of Five: Industry-standard drug-likeness criteria
+
+ADMET Properties: Absorption, Distribution, Metabolism, Excretion, Toxicity
+
+Validated Results: Comparable to experimental data
+
+🚀 Quick Start
+Prerequisites
+Bash
+
 Python 3.8+ 
 Git
 Visual Studio Code (recommended)
-```
+Installation
+Bash
 
-### Installation
-```bash
 # Clone the repository
 git clone https://github.com/your-username/quantum-drug-discovery.git
 cd quantum-drug-discovery
@@ -79,182 +82,196 @@ pip install -r requirements.txt
 
 # Run the application
 python app.py
-```
+🌐 Access the Platform
+Open your browser and navigate to: http://localhost:5000
 
-### 🌐 Access the Platform
-Open your browser and navigate to: `http://localhost:5000`
+🐳 Run with Docker
+Don’t want to mess with Python versions? Use Docker! 🚀
 
-## 🐳 Run with Docker
+Build & Run
+Bash
 
-Don’t want to mess with Python versions? Use Docker! 🚀  
-
-### Build & Run
-```bash
 # Build image
 docker build -t quantum-drug-discovery .
 
 # Run container
 docker run -p 5000:5000 quantum-drug-discovery
-```
+With Docker Compose
+Bash
 
-### With Docker Compose
-```bash
 docker-compose up --build
-```
+👉 Access app at: http://localhost:5000
 
-👉 Access app at: [http://localhost:5000](http://localhost:5000)
+📱 How to Use
+1. 🧠 Train Your Quantum Model
+Dataset Size: Choose 100-2000 molecules
 
-## 📱 How to Use
+Training Epochs: 10-200 iterations
 
-### 1. 🧠 Train Your Quantum Model
-- **Dataset Size**: Choose 100-2000 molecules
-- **Training Epochs**: 10-200 iterations
-- **Learning Rate**: 0.01-0.3 optimization speed
+Learning Rate: 0.01-0.3 optimization speed
 
-Click **"Start Quantum Training"** and watch the magic happen!
+Click "Start Quantum Training" and watch the magic happen!
 
-### 2. 🔬 Test Molecular Properties
+2. 🔬 Test Molecular Properties
 Enter molecular characteristics:
-- **Molecular Weight**: 100-800 Da (Daltons)
-- **LogP**: -2 to 6 (lipophilicity measure)
-- **Polar Surface Area**: 20-200 Ų (drug absorption)
-- **H-Bond Donors**: 0-10 (binding capability)
 
-### 3. 📊 Analyze Results
-- **Training Progress**: Real-time cost reduction
-- **Confusion Matrix**: Classification accuracy
-- **Model Metrics**: Precision, recall, F1-score
-- **Prediction Confidence**: How certain the model is
+Molecular Weight: 100-800 Da (Daltons)
 
-## 🧪 Sample Molecules
+LogP: -2 to 6 (lipophilicity measure)
 
+Polar Surface Area: 20-200 Ų (drug absorption)
+
+H-Bond Donors: 0-10 (binding capability)
+
+3. 📊 Analyze Results
+Training Progress: Real-time cost reduction
+
+Confusion Matrix: Classification accuracy
+
+Model Metrics: Precision, recall, F1-score
+
+Prediction Confidence: How certain the model is
+
+<img src="static/Images/2.png" alt="Platform Dashboards" width="800"/>
+
+<img src="static/Images/1.png" alt="User Interface" width="800"/>
+
+🧪 Sample Molecules
 Try these pre-loaded examples:
 
-| Molecule | Properties | Expected Result |
-|----------|------------|-----------------|
-| **Aspirin-like** | MW: 180, LogP: 1.2 | ✅ Effective |
-| **Lipinski Compliant** | MW: 350, LogP: 2.5 | ✅ Effective |
-| **Large Molecule** | MW: 550, LogP: 4.5 | ❌ Challenging |
-| **Optimal Drug** | MW: 300, LogP: 2.0 | ✅ Ideal |
+Molecule	Properties	Expected Result
+Aspirin-like	MW: 180, LogP: 1.2	✅ Effective
+Lipinski Compliant	MW: 350, LogP: 2.5	✅ Effective
+Large Molecule	MW: 550, LogP: 4.5	❌ Challenging
+Optimal Drug	MW: 300, LogP: 2.0	✅ Ideal
 
-## 🏗️ Project Structure
-
-```
+Export to Sheets
+🏗️ Project Structure
 quantum-drug-discovery/
-├── 📁 app.py                    # Main Flask application
+├── 📁 app.py                    # Main Flask application
 ├── 📁 templates/
-│   └── 📄 index.html           # Beautiful web interface
+│   └── 📄 index.html           # Beautiful web interface
 ├── 📁 static/
-│   ├── 📁 css/                 # Stylesheets
-│   ├── 📁 js/                  # JavaScript files
-│   └── 📁 images/              # Assets
-├── 📁 requirements.txt         # Python dependencies
-├── 📁 README.md               # This file
-├── 📁 .vscode/                # VS Code configuration
-│   ├── 📄 settings.json
-│   └── 📄 launch.json
-├── 📁 docker-compose.yml       # Docker Compose config
-├── 📁 Dockerfile               # Docker image build file
-└── 📁 docs/                   # Documentation
-    ├── 📄 api.md              # API documentation
-    └── 📄 quantum-theory.md   # Scientific background
-```
+│   ├── 📁 css/                 # Stylesheets
+│   ├── 📁 js/                  # JavaScript files
+│   └── 📁 images/              # Assets
+├── 📁 requirements.txt         # Python dependencies
+├── 📁 README.md               # This file
+├── 📁 .vscode/                # VS Code configuration
+│   ├── 📄 settings.json
+│   └── 📄 launch.json
+├── 📁 docker-compose.yml       # Docker Compose config
+├── 📁 Dockerfile               # Docker image build file
+└── 📁 docs/                   # Documentation
+    ├── 📄 api.md              # API documentation
+    └── 📄 quantum-theory.md   # Scientific background
+⚙️ Technology Stack
+Backend
+Flask 2.3.3: Web framework
 
-## ⚙️ Technology Stack
+PennyLane 0.32.0: Quantum machine learning
 
-### Backend
-- **Flask 2.3.3**: Web framework
-- **PennyLane 0.32.0**: Quantum machine learning
-- **NumPy**: Numerical computing
-- **Pandas**: Data manipulation
-- **Scikit-learn**: Classical ML algorithms
-- **Matplotlib/Seaborn**: Visualizations
+NumPy: Numerical computing
 
-### Frontend
-- **HTML5**: Modern markup
-- **CSS3**: Responsive design
-- **JavaScript**: Interactive features
-- **Chart.js**: Data visualization
+Pandas: Data manipulation
 
-### Quantum Computing
-- **Variational Quantum Circuits**: Parameterized quantum algorithms
-- **Quantum Feature Encoding**: Data → Quantum states
-- **Quantum Neural Networks**: Hybrid learning models
+Scikit-learn: Classical ML algorithms
 
-## 🌍 Real-World Impact
+Matplotlib/Seaborn: Visualizations
 
-### Industry Applications
-- **Pfizer**: Quantum ML for COVID-19 drug discovery
-- **IBM Quantum Network**: 200+ pharmaceutical partners
-- **Merck**: Quantum algorithms for drug optimization
-- **Novartis**: Molecular simulation acceleration
+Frontend
+HTML5: Modern markup
 
-### Research Benefits
-- **Academic Institutions**: Harvard, MIT, Stanford using quantum drug discovery
-- **Government Projects**: NIH Quantum Biology Initiative
-- **Startups**: 50+ quantum biotech companies funded
+CSS3: Responsive design
 
-## 📈 Performance Benchmarks
+JavaScript: Interactive features
 
-| Metric | Classical Computing | Quantum Computing |
-|--------|-------------------|------------------|
-| **Training Time** | 24-48 hours | 15-30 minutes |
-| **Molecular Analysis** | 1000 compounds/day | 100,000 compounds/day |
-| **Accuracy** | 75-80% | 85-92% |
-| **Cost per Analysis** | $50-100 | $1-5 |
+Chart.js: Data visualization
 
-## 🔧 Advanced Configuration
+Quantum Computing
+Variational Quantum Circuits: Parameterized quantum algorithms
 
-### Custom Quantum Circuits
-```python
+Quantum Feature Encoding: Data → Quantum states
+
+Quantum Neural Networks: Hybrid learning models
+
+🌍 Real-World Impact
+Industry Applications
+Pfizer: Quantum ML for COVID-19 drug discovery
+
+IBM Quantum Network: 200+ pharmaceutical partners
+
+Merck: Quantum algorithms for drug optimization
+
+Novartis: Molecular simulation acceleration
+
+Research Benefits
+Academic Institutions: Harvard, MIT, Stanford using quantum drug discovery
+
+Government Projects: NIH Quantum Biology Initiative
+
+Startups: 50+ quantum biotech companies funded
+
+📈 Performance Benchmarks
+Metric	Classical Computing	Quantum Computing
+Training Time	24-48 hours	15-30 minutes
+Molecular Analysis	1000 compounds/day	100,000 compounds/day
+Accuracy	75-80%	85-92%
+Cost per Analysis	$50-100	$1-5
+
+Export to Sheets
+🔧 Advanced Configuration
+Custom Quantum Circuits
+Python
+
 def custom_ansatz(params, wires):
-    for i in range(len(wires)):
-        qml.RY(params[i], wires=i)
-    for i in range(len(wires)-1):
-        qml.CNOT(wires=[i, i+1])
-```
+    for i in range(len(wires)):
+        qml.RY(params[i], wires=i)
+    for i in range(len(wires)-1):
+        qml.CNOT(wires=[i, i+1])
+Hyperparameter Tuning
+Python
 
-### Hyperparameter Tuning
-```python
 # Optimize for your dataset
 config = {
-    'n_layers': 3,        # Quantum circuit depth
-    'learning_rate': 0.1, # Optimizer step size
-    'batch_size': 32,     # Training batch size
+    'n_layers': 3,        # Quantum circuit depth
+    'learning_rate': 0.1, # Optimizer step size
+    'batch_size': 32,     # Training batch size
 }
-```
+🚨 Troubleshooting
+Common Issues
+❌ "ModuleNotFoundError: No module named 'pennylane'"
 
-## 🚨 Troubleshooting
+Bash
 
-### Common Issues
-
-**❌ "ModuleNotFoundError: No module named 'pennylane'"**
-```bash
 pip install pennylane numpy matplotlib pandas scikit-learn flask
-```
+❌ "Training failed: Unexpected end of JSON input"
 
-**❌ "Training failed: Unexpected end of JSON input"**
-- Check internet connection
-- Restart Flask server
-- Clear browser cache
+Check internet connection
 
-**❌ macOS multiprocessing errors**
-```python
+Restart Flask server
+
+Clear browser cache
+
+❌ macOS multiprocessing errors
+
+Python
+
 import multiprocessing as mp
 mp.set_start_method('spawn', force=True)
-```
+Performance Tips
+Start with smaller datasets (100-500 molecules)
 
-### Performance Tips
-- Start with smaller datasets (100-500 molecules)
-- Use fewer epochs (20-50) for initial testing
-- Monitor training costs for stability
+Use fewer epochs (20-50) for initial testing
 
-## 🤝 Contributing
+Monitor training costs for stability
 
+🤝 Contributing
 We welcome contributions from quantum computing enthusiasts, pharmaceutical researchers, and web developers!
 
-### Development Setup
-```bash
+Development Setup
+Bash
+
 # Install development dependencies
 pip install -r requirements-dev.txt
 
@@ -264,61 +281,60 @@ python -m pytest tests/
 # Code formatting
 black app.py
 flake8 app.py
-```
+Contribution Guidelines
+Fork the repository
 
-### Contribution Guidelines
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
+Create feature branch (git checkout -b feature/amazing-feature)
 
-## 📚 Educational Resources
+Commit changes (git commit -m 'Add amazing feature')
 
-### Learning Quantum Computing
-- [IBM Qiskit Textbook](https://qiskist.org/textbook/)
-- [PennyLane Tutorials](https://pennylane.ai/tutorials/)
-- [Quantum Machine Learning Course](https://www.edx.org/course/quantum-machine-learning)
+Push to branch (git push origin feature/amazing-feature)
 
-### Drug Discovery Science
-- [Nature Reviews Drug Discovery](https://www.nature.com/nrd/)
-- [Journal of Chemical Information and Modeling](https://pubs.acs.org/journal/jcisd8)
-- [Drug Discovery Today](https://www.drugdiscoverytoday.com/)
+Open Pull Request
 
-## 📄 License
+📚 Educational Resources
+Learning Quantum Computing
+IBM Qiskit Textbook
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+PennyLane Tutorials
 
-## 🙏 Acknowledgments
+Quantum Machine Learning Course
 
-- **PennyLane Team**: For the amazing quantum ML framework
-- **IBM Quantum**: For quantum computing resources
-- **Pharmaceutical Partners**: For real-world validation
-- **Open Source Community**: For continuous improvements
+Drug Discovery Science
+Nature Reviews Drug Discovery
 
-## 📞 Support & Contact
+Journal of Chemical Information and Modeling
 
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/your-username/quantum-drug-discovery/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/your-username/quantum-drug-discovery/discussions)
-- 📧 **Email**: quantum-drug-discovery@example.com
-- 🐦 **Twitter**: [@QuantumDrugAI](https://twitter.com/QuantumDrugAI)
+Drug Discovery Today
 
-## 🌟 Star History
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/quantum-drug-discovery&type=Date)](https://star-history.com/#your-username/quantum-drug-discovery&Date)
+🙏 Acknowledgments
+PennyLane Team: For the amazing quantum ML framework
 
----
+IBM Quantum: For quantum computing resources
 
+Pharmaceutical Partners: For real-world validation
+
+Open Source Community: For continuous improvements
+
+📞 Support & Contact
+🐛 Bug Reports: GitHub Issues
+
+💬 Discussions: GitHub Discussions
+
+📧 Email: quantum-drug-discovery@example.com
+
+🐦 Twitter: @QuantumDrugAI
+
+🌟 Star History
 <div align="center">
 
-**⚛️ Quantum Drug Discovery Platform**
+⚛️ Quantum Drug Discovery Platform
 
-*Bridging the gap between quantum physics and pharmaceutical innovation*
+Bridging the gap between quantum physics and pharmaceutical innovation
 
-[🚀 Get Started](#-quick-start) | [📚 Documentation](docs/) | [🤝 Contributing](#-contributing) | [⭐ Star Us](https://github.com/your-username/quantum-drug-discovery)
+🚀 Get Started | 📚 Documentation | 🤝 Contributing | ⭐ Star Us
 
 </div>
-
----
-
-> *"The future of medicine lies in understanding molecules at the quantum level. This platform makes that future accessible today."* - Dr. Sarah Chen, Quantum Pharmaceutical Research
