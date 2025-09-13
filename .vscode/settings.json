@@ -1,0 +1,10 @@
+{
+    "python.defaultInterpreterPath": "./quantum_env/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "flask.app": "app.py",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "emmet.includeLanguages": {
+        "html": "html"
+    }
+}

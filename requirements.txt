@@ -1,0 +1,28 @@
+# Quantum Drug Discovery Platform Dependencies
+
+# Core web framework
+Flask==3.0.3
+Werkzeug==3.0.4
+
+# Quantum machine learning
+pennylane==0.38.0
+pennylane-lightning==0.38.0
+
+# Scientific computing
+numpy==2.1.2
+pandas==2.2.2
+scikit-learn==1.5.2
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Additional utilities
+Pillow==10.0.0
+requests==2.31.0
+
+# Development dependencies (optional)
+# pytest==7.4.0
+# black==23.3.0
+# flake8==6.0.0
+# jupyter==1.0.0
